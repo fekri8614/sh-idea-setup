@@ -96,4 +96,4 @@ Please check the path and try again.
 ```
 
 ## License
-his project is licensed under the MIT License. See the [LICENSE](https://github.com/fekri8614/sh-idea-setup/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/fekri8614/sh-idea-setup/blob/master/LICENSE) file for details.
