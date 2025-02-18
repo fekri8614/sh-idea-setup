@@ -13,17 +13,17 @@ This is a simple shell script to automate the creation of a symbolic link for In
 ## Usage
 
 1. Clone this repository or download the script:
-   ```
+   ```bash
    git clone https://github.com/fekri8614/sh-idea-setup.git
    cd sh-idea-setup
-   
-2. Make the code executable:
    ```
+2. Make the code executable:
+   ```bash
    chmod +x setup_idea.sh
    ```
 
 3. Run the script:
-   ```
+   ```bash
    ./setup_idea.sh
    ```
 
@@ -65,7 +65,7 @@ echo "-------------------- End -------------------------------------------------
 ```
 
 ## Example
-```
+```bash
 ~$ ./setup_idea.sh
 -------------------- Welcome to Intellij IDEA Locator! --------------------
                                                                           |
@@ -80,7 +80,7 @@ Symbolic link created successfully!
 You can now run IntelliJ IDEA by typing 'idea' in the terminal.
 ```
 then, try writing `idea` ...
-```
+```bash
 ~$ idea
 # IntelliJ IDEA launches
 ```
@@ -88,7 +88,7 @@ then, try writing `idea` ...
 ## Error Handling
 If the script cannot find the IntelliJ IDEA installation, it will display an error message in red:
 
-```
+```bash
 ~$ ./setup_idea.sh
 Enter your Intellij IDEA name (For example: idea-IC-211.7628.21): samplename
 Error: IntelliJ IDEA installation not found at /home/<user-name>/samplename/bin/idea.sh. 
